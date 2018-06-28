@@ -40,22 +40,6 @@ def fitness(cromossomo: list) -> float:
     # Soma dos dois Xs e mais a penalidade caso pecise
     return abs(y0) + abs(y1) + penalidade
 
-
-'''
-    #print(f'X: {x}')
-    #print(f'Y: {y}')
-    if(x < 100 and x >=-100 ) and (y < 100 and y >=-100):
-        #print(f'X: {x}')
-        #print(f'Y: {y}')
-        return (x * y ** np.sin((y * np.pi) / 4))
-        #return 9999999
-    else:
-        return 9999999
-        #return (x * y ** np.sin((y * np.pi) / 4))
-
-    # Para o problema de achar o maximo da funcao
-    # return -x ** 2 + 2 * x + 3
-'''
 def decodifica(cromossomo):
 
     # Extrai o sinal
