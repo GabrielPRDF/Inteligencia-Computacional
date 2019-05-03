@@ -1,1 +1,1 @@
-# inteligencia-computacional
+# Inteligencia Computacional
